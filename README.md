@@ -1,39 +1,87 @@
-# Welcome to Our Luxury Perfume E-commerce Website
-
-## Discover Our Exclusive Collection
-
-Explore our variety of high-end perfumes designed for elegance and sophistication. Each fragrance is crafted with the finest ingredients to provide you with a unique olfactory experience.
-
-### New Products
-1. **Opulent Rose** - $150 (30ml)
-2. **Citrus Blossom** - $130 (50ml)
-3. **Mystic Oud** - $200 (100ml)
-
-### Features
-- **Tiered Pricing**: Enjoy discounts on bulk purchases!
-- **Premium Dark Theme**: A sleek and modern design enhances your shopping experience.
-- **Multiple Contact Methods**: Reach us via email, phone, or our social media channels.
-
-## About Us
-We are passionate about bringing you the best luxurious fragrances that make a statement. Our mission is to provide high-quality perfumes that cater to your unique style and personality.
-
-## FAQ
-**1. What is your return policy?**  
-We accept returns within 30 days of purchase. Please keep all packaging.  
-**2. Do you offer international shipping?**  
-Yes, we ship worldwide.
-
-## Shipping Information
-We offer free shipping on orders over $100. Expect delivery within 5-7 business days within the US.
-
-## Stay Connected
-Follow us on social media to keep up with our latest products and offers!
-
-### Social Media Links
-- Facebook
-- Instagram
-- Twitter
-
----
-Thank you for choosing us for your luxury perfume needs!  
-*Current Date & Time: 2026-02-09 11:35:59 UTC*
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odorama - E-commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #e0b700;
+        }
+        .product {
+            border: 1px solid #e0b700;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            background-color: #2a2a2a;
+        }
+        .footer {
+            background-color: #000;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>عمود تجارة - Odorama</h1>
+    </header>
+    <main>
+        <section>
+            <h2>المنتجات الجديده</h2>
+            <div class="product">
+                <h3>المنتج 1</h3>
+                <p>السعر: 25 DT</p>
+            </div>
+            <div class="product">
+                <h3>المنتج 2</h3>
+                <p>السعر: 35 DT</p>
+            </div>
+            <div class="product">
+                <h3>المنتج 3</h3>
+                <p>السعر: 45 DT</p>
+            </div>
+        </section>
+        <section>
+            <h2>حولنا</h2>
+            <p>نحن شركة تجارة الكترونية تركز على تقديم منتجات فاخرة...</p>
+        </section>
+        <section>
+            <h2>الشحن والتوصيل</h2>
+            <p>معلومات عن سياسات الشحن والتوصيل.</p>
+        </section>
+        <section>
+            <h2>أسئلة شائعة</h2>
+            <p>إجابات على الأسئلة المتكررة.</p>
+        </section>
+        <section>
+            <h2>طرق الاتصال</h2>
+            <p>يمكنك الاتصال بنا عن طريق:</p>
+            <ul>
+                <li>WhatsApp: +1234567890</li>
+                <li>Email: contact@odorama.com</li>
+                <li>Phone: +1234567890</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>تابعنا على وسائل التواصل الاجتماعي: <a href="#" style="color: #e0b700;">فيسبوك</a> | <a href="#" style="color: #e0b700;">تويتر</a></p>
+    </footer>
+</body>
+</html>
